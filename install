@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls -I install | xargs stow -v 2
