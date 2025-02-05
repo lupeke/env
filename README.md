@@ -1,2 +1,7 @@
 # env
-dots 🕹️
+
+### quickstart work environment 
+
+```bash
+./install
+```
