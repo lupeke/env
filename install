@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ls -d */ | cut -d '/' -f 1 | xargs stow -v 2
+ls -d */ | cut -d '/' -f 1 | xargs stow -t $HOME -v 2
