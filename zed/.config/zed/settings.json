@@ -7,12 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "languages": {
+    "Python": {
+      "language_servers": ["pylsp"] // or ["pyright"] or ["pylsp", "!pyright"]
+    }
+  },
   "agent": {
     "play_sound_when_agent_done": true,
     "model_parameters": [],
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4"
+      "provider": "ollama",
+      "model": "qwen3:latest"
     },
     "version": "2"
   },
